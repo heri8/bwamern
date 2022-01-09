@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+@import "colorVariables";
 @import "functions";
 @import "variables";
 @import "mixins";
@@ -143,7 +144,7 @@ section {
       transform: scale(1.1);
       transition: 0.5s transform ease-in-out;
       z-index: 2;
-      @include gradient-y(rgba($black, 0) rgba($black, .51), 0%, 100%);
+      @include gradient-y(rgba($black, 0) rgba($black, 0.51), 0%, 100%);
     }
 
     .img-wrapper {
@@ -181,7 +182,7 @@ section {
       &:after {
         transform: scale(1);
       }
-      .img-wrapper{
+      .img-wrapper {
         transform: scale(1);
       }
     }
@@ -197,4 +198,10 @@ section {
   object-fit: contain;
   height: 100%;
   width: 100%;
+}
+
+.testimonial-hero,
+.testimonial-hero img {
+  width: 365px;
+  height: 500px;
 }

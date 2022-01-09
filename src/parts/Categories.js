@@ -15,7 +15,6 @@ export default function Categories({ data }) {
             </div>
           ) : (
             category.items.map((items, index2) => {
-                console.log(items);
               return (
                 <div
                   className="item column-3 row-1"
