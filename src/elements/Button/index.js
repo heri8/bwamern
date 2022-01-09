@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
-
 export default function Button(props) {
   const className = [props.className];
   if (props.isPrimary) className.push("btn-primary");
@@ -12,6 +11,7 @@ export default function Button(props) {
   if (props.hasShadow) className.push("btn-shadow");
 
   const onClick = () => {
+    console.log("udah di klik nih");
     if (props.onClick) props.onClick();
   };
 
