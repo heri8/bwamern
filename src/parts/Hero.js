@@ -9,7 +9,6 @@ import numberFormat from "utils/formatNumber";
 
 export default function Hero(props) {
   function showMostPicked() {
-    console.log("udah di klik nih");
     window.scrollTo({
       top: props.refMostPicked.current.offsetTop - 30,
       behavior: "smooth",

@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 
 export default function Button(props) {
   const className = [props.className];
+
   if (props.isPrimary) className.push("btn-primary");
   if (props.isLarge) className.push("btn-lg");
   if (props.isSmall) className.push("btn-sm");
@@ -11,7 +12,6 @@ export default function Button(props) {
   if (props.hasShadow) className.push("btn-shadow");
 
   const onClick = () => {
-    console.log("udah di klik nih");
     if (props.onClick) props.onClick();
   };
 
@@ -59,7 +59,11 @@ export default function Button(props) {
   }
 
   return (
-    <button className={className.join(" ")} style={props.style}>
+    <button
+      className={className.join(" ")}
+      style={props.style}
+      onClick={onClick}
+    >
       {props.children}
     </button>
   );
