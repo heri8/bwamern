@@ -6,7 +6,7 @@ import TestimonyAccent from "assets/images/tertimonial-frame.jpg";
 
 export default function Testimony({ data }) {
   return (
-    <Fade bottom>
+    <Fade triggerOnce direction="up">
       <section className="container">
         <div className="row align-items-center">
           <div className="col-auto" style={{ marginRight: 60 }}>

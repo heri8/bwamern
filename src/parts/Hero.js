@@ -17,7 +17,7 @@ export default function Hero(props) {
   }
 
   return (
-    <Fade bottom>
+    <Fade triggerOnce direction="up">
       <section className="container pt-4">
         <div className="row align-items-center">
           <div className="col-auto pr-5" style={{ width: 530 }}>
