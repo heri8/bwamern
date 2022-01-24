@@ -6,7 +6,6 @@ export default function FeaturedImage({ data }) {
     <section className="container">
       <div className="container-grid sm">
         {data.map((item, index) => {
-          console.log(item);
           return (
             <div
               key={`FeaturedImage-${index}`}

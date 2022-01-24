@@ -73,7 +73,7 @@ export default function Date(props) {
               onChange={datePickerChange}
               moveRangeOnFirstSelection={false}
               onRangeFocusChange={check}
-              range={[value]}
+              ranges={[value]}
             />
           </div>
         )}
