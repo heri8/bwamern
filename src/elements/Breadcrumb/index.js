@@ -33,7 +33,7 @@ export default function Breadcrumb(props) {
   );
 }
 
-Breadcrumb.PropTypes = {
+Breadcrumb.propTypes = {
   data: PropTypes.array,
   className: PropTypes.string,
 };
