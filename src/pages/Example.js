@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import InputNumber from "elements/Form/InputNumber";
+import Completed from "parts/Checkout/Completed";
 
 export default class Example extends Component {
   state = {
@@ -18,14 +18,7 @@ export default class Example extends Component {
           style={{ height: "100vh" }}
         >
           <div className="col-auto">
-            <InputNumber
-              max={30}
-              suffix=" night"
-              isSuffixPlural
-              onChange={this.handleChange}
-              name="value"
-              value={this.state.value}
-            />
+            <Completed />
           </div>
         </div>
       </div>
