@@ -15,7 +15,7 @@ export default function Testimony({ data }) {
               style={{ margin: `30px 0 0 30px` }}
             >
               <img
-                src={data.imageUrl}
+                src={data.imageUrl ? `${process.env.REACT_APP_HOST}/${data.imageUrl}` : ""}
                 alt="Tersimonial"
                 className="position-absolute"
                 style={{ zIndex: 2 }}
