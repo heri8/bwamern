@@ -13,7 +13,6 @@ export default function FeaturedImage({ data }) {
                 index > 0 ? "row-1" : "row-2"
               }`}
             >
-              {/* <Fade triggerOnce direction="up" delay={300 * index}> */}
               <Fade
                 triggerOnce
                 direction="up"
@@ -21,10 +20,18 @@ export default function FeaturedImage({ data }) {
                 className="card h-100"
               >
                 <figure className="img-wrapper">
-                  <img className="img-cover" src={item.url} alt={item._id} />
+                  {}
+                  <img
+                    className="img-cover"
+                    src={
+                      item
+                        ? `${process.env.REACT_APP_HOST}/${item.imageUrl}`
+                        : ""
+                    }
+                    alt={item._id}
+                  />
                 </figure>
               </Fade>
-              {/* </Fade> */}
             </div>
           );
         })}
