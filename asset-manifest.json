@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "./static/css/main.b83507aa.css",
-    "main.js": "./static/js/main.66cc3da5.js",
-    "static/js/787.dc9543f9.chunk.js": "./static/js/787.dc9543f9.chunk.js",
-    "static/media/img-hero.jpg": "./static/media/img-hero.306a6447d35b513e9736.jpg",
-    "static/media/completed.jpg": "./static/media/completed.ec998249cee068f7a5f5.jpg",
-    "static/media/img-hero-frame.jpg": "./static/media/img-hero-frame.20918723597a4f216c51.jpg",
-    "static/media/tertimonial-frame.jpg": "./static/media/tertimonial-frame.61f6d5972899151601dc.jpg",
-    "static/media/logo_bca.jpg": "./static/media/logo_bca.17c17f428592ae2d7a78.jpg",
-    "static/media/icon_treasure.svg": "./static/media/icon_treasure.cd76ed6533e3bb1f10cc41dff5760c3b.svg",
-    "static/media/icon_cities.svg": "./static/media/icon_cities.acc771939611aca416e9a1c4202f50ec.svg",
-    "static/media/icon_calendar.svg": "./static/media/icon_calendar.96887c183d06fc9c5171a34f65f1760c.svg",
-    "static/media/star.svg": "./static/media/star.bdd1a0e5ac5d083ca7cc.svg",
-    "index.html": "./index.html",
-    "static/media/icon_traveler.svg": "./static/media/icon_traveler.0103dcf344f862a281cee611b5458027.svg",
-    "main.b83507aa.css.map": "./static/css/main.b83507aa.css.map",
-    "main.66cc3da5.js.map": "./static/js/main.66cc3da5.js.map",
-    "787.dc9543f9.chunk.js.map": "./static/js/787.dc9543f9.chunk.js.map"
+    "main.css": "/bwamern/static/css/main.0646cd94.css",
+    "main.js": "/bwamern/static/js/main.6ff28582.js",
+    "static/js/787.dc9543f9.chunk.js": "/bwamern/static/js/787.dc9543f9.chunk.js",
+    "static/media/img-hero.jpg": "/bwamern/static/media/img-hero.306a6447d35b513e9736.jpg",
+    "static/media/completed.jpg": "/bwamern/static/media/completed.ec998249cee068f7a5f5.jpg",
+    "static/media/img-hero-frame.jpg": "/bwamern/static/media/img-hero-frame.20918723597a4f216c51.jpg",
+    "static/media/tertimonial-frame.jpg": "/bwamern/static/media/tertimonial-frame.61f6d5972899151601dc.jpg",
+    "static/media/logo_bca.jpg": "/bwamern/static/media/logo_bca.17c17f428592ae2d7a78.jpg",
+    "static/media/icon_treasure.svg": "/bwamern/static/media/icon_treasure.cd76ed6533e3bb1f10cc41dff5760c3b.svg",
+    "static/media/icon_cities.svg": "/bwamern/static/media/icon_cities.acc771939611aca416e9a1c4202f50ec.svg",
+    "static/media/icon_calendar.svg": "/bwamern/static/media/icon_calendar.96887c183d06fc9c5171a34f65f1760c.svg",
+    "static/media/star.svg": "/bwamern/static/media/star.bdd1a0e5ac5d083ca7cc.svg",
+    "index.html": "/bwamern/index.html",
+    "static/media/icon_traveler.svg": "/bwamern/static/media/icon_traveler.0103dcf344f862a281cee611b5458027.svg",
+    "main.0646cd94.css.map": "/bwamern/static/css/main.0646cd94.css.map",
+    "main.6ff28582.js.map": "/bwamern/static/js/main.6ff28582.js.map",
+    "787.dc9543f9.chunk.js.map": "/bwamern/static/js/787.dc9543f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b83507aa.css",
-    "static/js/main.66cc3da5.js"
+    "static/css/main.0646cd94.css",
+    "static/js/main.6ff28582.js"
   ]
 }
